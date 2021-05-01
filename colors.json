@@ -1,0 +1,197 @@
+[
+    {
+        "color": "pink",
+        "subcolors": [
+            "MediumVioletRed",
+            "DeepPink",
+            "PaleVioletRed",
+            "HotPink",
+            "LightPink",
+            "Pink"
+        ]
+    },
+    {
+        "color": "red",
+        "subcolors": [
+            "DarkRed",
+            "Red",
+            "Firebrick",
+            "Crimson",
+            "IndianRed",
+            "LightCoral",
+            "Salmon",
+            "DarkSalmon",
+            "LightSalmon"
+        ]
+    },
+    {
+        "color": "orange",
+        "subcolors": [
+            "OrangeRed",
+            "Tomato",
+            "DarkOrange",
+            "Coral",
+            "Orange"
+        ]
+    },
+    {
+        "color": "yellow",
+        "subcolors": [
+            "DarkKhaki",
+            "Gold",
+            "Khaki",
+            "PeachPuff",
+            "Yellow",
+            "PaleGoldenrod",
+            "Moccasin",
+            "PapayaWhip",
+            "LightGoldenrodYellow",
+            "LemonChiffon",
+            "LightYellow"
+        ]
+    },
+    {
+        "color": "brown",
+        "subcolors": [
+            "Maroon",
+            "Brown",
+            "SaddleBrown",
+            "Sienna",
+            "Chocolate",
+            "DarkGoldenrod",
+            "Peru",
+            "RosyBrown",
+            "Goldenrod",
+            "SandyBrown",
+            "Tan",
+            "Burlywood",
+            "Wheat",
+            "NavajoWhite",
+            "Bisque",
+            "BlanchedAlmond",
+            "Cornsilk"
+        ]
+    },
+    {
+        "color": "green",
+        "subcolors": [
+            "DarkGreen",
+            "Green",
+            "DarkOliveGreen",
+            "ForestGreen",
+            "SeaGreen",
+            "Olive",
+            "OliveDrab",
+            "MediumSeaGreen",
+            "LimeGreen",
+            "Lime",
+            "SpringGreen",
+            "MediumSpringGreen",
+            "DarkSeaGreen",
+            "MediumAquamarine",
+            "YellowGreen",
+            "LawnGreen",
+            "Chartreuse",
+            "LightGreen",
+            "GreenYellow",
+            "PaleGreen"
+        ]
+    },
+    {
+        "color": "teal",
+        "subcolors": [
+            "Teal",
+            "DarkCyan",
+            "LightSeaGreen",
+            "CadetBlue",
+            "DarkTurquoise",
+            "MediumTurquoise",
+            "Turquoise",
+            "Aqua",
+            "Cyan",
+            "Aquamarine",
+            "PaleTurquoise",
+            "LightCyan"
+        ]
+    },
+    {
+        "color": "blue",
+        "subcolors": [
+            "Navy",
+            "DarkBlue",
+            "MediumBlue",
+            "Blue",
+            "MidnightBlue",
+            "RoyalBlue",
+            "SteelBlue",
+            "DodgerBlue",
+            "DeepSkyBlue",
+            "CornflowerBlue",
+            "SkyBlue",
+            "LightSkyBlue",
+            "LightSteelBlue",
+            "LightBlue",
+            "PowderBlue"
+        ]
+    },
+    {
+        "color": "purple",
+        "subcolors": [
+            "Indigo",
+            "Purple",
+            "DarkMagenta",
+            "DarkViolet",
+            "DarkSlateBlue",
+            "BlueViolet",
+            "DarkOrchid",
+            "Fuchsia",
+            "Magenta",
+            "SlateBlue",
+            "MediumSlateBlue",
+            "MediumOrchid",
+            "MediumPurple",
+            "Orchid",
+            "Violet",
+            "Plum",
+            "Thistle",
+            "Lavender"
+        ]
+    },
+    {
+        "color": "white",
+        "subcolors": [
+            "MistyRose",
+            "AntiqueWhite",
+            "Linen",
+            "Beige",
+            "WhiteSmoke",
+            "LavenderBlush",
+            "OldLace",
+            "AliceBlue",
+            "Seashell",
+            "GhostWhite",
+            "Honeydew",
+            "FloralWhite",
+            "Azure",
+            "MintCream",
+            "Snow",
+            "Ivory",
+            "White"
+        ]
+    },
+    {
+        "color": "black",
+        "subcolors": [
+            "Black",
+            "DarkSlateGray",
+            "DimGray",
+            "SlateGray",
+            "Gray",
+            "LightSlateGray",
+            "DarkGray",
+            "Silver",
+            "LightGray",
+            "Gainsboro"
+        ]
+    }
+]
