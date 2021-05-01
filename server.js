@@ -9,10 +9,9 @@ const app = express();
 app.set('port', PORT);
 app.set('env', NODE_ENV);
 
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(logger('tiny'));
-app.use('/', require(path.join(__dirname, 'routes')));
 
 app.use((req, res, next) => {
     const err = new Error(`${req.method} ${req.url} not found`);
@@ -27,5 +26,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, function () {
-    console.log("Listening on PORT" + PORT);
+    console.log("Listening on PORT " + PORT);
 });
