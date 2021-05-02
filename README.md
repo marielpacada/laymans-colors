@@ -1,1 +1,1 @@
-# laymans-colors
+# simple-colors-api
