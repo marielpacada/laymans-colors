@@ -43,8 +43,8 @@ const getSubcolors = async (req, res, next) => {
     }
 };
 
-app.route("/api/colors/:color").get(getSubcolors);
-app.route("/api/colors").get(getColors);
+app.route("/colors").get(getColors);
+app.route("/colors/:color").get(getSubcolors);
 
 app.use((req, res, next) => {
     const err = new Error(`${req.method} ${req.url} not found`);
