@@ -14,7 +14,7 @@ app.use(express.json());
 
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, "./colors.json")));
 
-const getColors = async (req, res, next) => {
+const getMainColors = async (req, res, next) => {
     try {
         const colors = (function () {
             var colors = [];
@@ -43,8 +43,27 @@ const getSubcolors = async (req, res, next) => {
     }
 };
 
-app.route("/colors").get(getColors);
+const getColorGroup = async (req, res, next) => {
+    try {
+        var colorGroup = "";
+        for (const color in data) {
+            if (color.subcolors.includes(req.params.subcolor)) {
+                colorGroup = color.color;
+                break;
+            }
+        }
+        res.send(colorGroup);
+    }
+    catch (e) {
+        next(e);
+    }
+
+};
+
+app.route("/colors").get(getMainColors);
 app.route("/colors/:color").get(getSubcolors);
+app.route("/:subcolor").get(getColorGroup);
+
 
 app.use((req, res, next) => {
     const err = new Error(`${req.method} ${req.url} not found`);
