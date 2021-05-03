@@ -45,12 +45,17 @@ const getSubcolors = async (req, res, next) => {
 
 const getColorGroup = async (req, res, next) => {
     try {
-        var colorGroup = "";
-        for (const color in data) {
+        var colorGroup = [];
+        for (const color of data) {
             if (color.subcolors.includes(req.params.subcolor)) {
-                colorGroup = color.color;
+                colorGroup.push(color.color);
                 break;
             }
+        }
+        if (colorGroup.length === 0) {
+            const err = new Error('subcolor not found');
+            err.status = 404;
+            throw err;
         }
         res.send(colorGroup);
     }
@@ -63,7 +68,6 @@ const getColorGroup = async (req, res, next) => {
 app.route("/colors").get(getMainColors);
 app.route("/colors/:color").get(getSubcolors);
 app.route("/:subcolor").get(getColorGroup);
-
 
 app.use((req, res, next) => {
     const err = new Error(`${req.method} ${req.url} not found`);
