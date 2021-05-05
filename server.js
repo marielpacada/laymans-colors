@@ -11,6 +11,7 @@ app.set('env', NODE_ENV);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"));
 
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, "./colors.json")));
 

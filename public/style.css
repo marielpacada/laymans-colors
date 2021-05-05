@@ -1,0 +1,79 @@
+body {
+    margin: 5rem auto;
+    width: 60%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Courier, monospace;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-weight: 150;
+    font-size: medium;
+    margin-bottom: 5rem;
+}
+
+code {
+    font-size: medium;
+}
+
+.intro {
+    margin-bottom: 5rem;
+}
+
+.arrow {
+    display: inline;
+    margin-left: 3rem;
+}
+
+.arrow>a {
+    color: black;
+    text-decoration: none;
+}
+
+.arrow>a:hover {
+    color: gray;
+}
+
+.calls {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.request {
+    margin-bottom: 1rem;
+}
+
+.desc {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.imp {
+    color: slateblue;
+}
+
+.footer {
+    margin-top: 8rem;
+}
+
+.footer>a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer>a:hover {
+    color: gray;
+}
+
+#web { 
+    color: darkseagreen;
+}
+
+#web:hover { 
+    color: gray;
+}
